@@ -48,7 +48,7 @@ output F1;
 assign F1=((~b&~d)|(~a&b&d)|(a&b&~c));
 endmodule
 
-module ex2pb(w,x,y,z,F2)
+module exp2b(w,x,y,z,F2)
 intput w,x,y,z;
 output F2;
 assign F2=((~y&z)|(x&y)|(w&y));
