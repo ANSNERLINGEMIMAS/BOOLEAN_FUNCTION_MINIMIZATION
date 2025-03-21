@@ -53,6 +53,7 @@ intput w,x,y,z;
 output F2;
 assign F2=((~y&z)|(x&y)|(w&y));
 endmodule
+```
 
 
 **RTL realization**
